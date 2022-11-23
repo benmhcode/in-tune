@@ -1,0 +1,41 @@
+body {
+  background-color: bisque;
+  color: black;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* .display-container {
+  height: 50px;
+} */
+
+button,
+input,
+select {
+  width: 200px;
+  height: 30px;
+}
+
+.icons {
+  display: flex;
+  color: gray;
+  fill-opacity: 25%;
+}
+
+/* .icon {
+ 
+} */
+
+.out-of-tune {
+  color: red;
+  fill-opacity: 100%;
+}
+
+.in-tune {
+  color: green;
+  fill-opacity: 100%;
+}
